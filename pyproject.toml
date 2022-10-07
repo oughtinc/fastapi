@@ -38,7 +38,7 @@ classifiers = [
     "Topic :: Internet :: WWW/HTTP",
 ]
 dependencies = [
-    "starlette==0.20.4",
+    "starlette==0.21.0",
     "pydantic >=1.6.2,!=1.7,!=1.7.1,!=1.7.2,!=1.7.3,!=1.8,!=1.8.1,<2.0.0",
 ]
 dynamic = ["version"]
@@ -69,6 +69,7 @@ test = [
     "python-jose[cryptography] >=3.3.0,<4.0.0",
     "pyyaml >=5.3.1,<7.0.0",
     "passlib[bcrypt] >=1.7.2,<2.0.0",
+    "trio >=0.19,<0.22.0",
 
     # types
     "types-ujson ==5.4.0",
